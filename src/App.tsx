@@ -21,7 +21,10 @@ const mockTodos = [
 const App = (): JSX.Element => {
   const [todos, setTodos] = useState(mockTodos)
   return (
-    <Todos todos={todos}/>
+    <>
+      <h1>todos mdv</h1>
+      <Todos todos={todos}/>
+    </>
   )
 }
 
